@@ -1,0 +1,15 @@
+*{
+    font-size:40px;
+}
+.div{
+    width: 400px;
+    height:500px;
+    background-color:rgb(43, 0, 255);
+    margin:150px auto;
+    border:5px solid black;
+    transition: ease-in-out 5s;
+}
+.div:hover{
+    transform:rotateZ(360deg);
+    background-color: rgb(255, 222, 144);
+}

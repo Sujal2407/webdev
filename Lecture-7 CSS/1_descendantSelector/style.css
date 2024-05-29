@@ -1,0 +1,11 @@
+.parent.child{
+    background-color: red;
+    color:white
+}
+.parent.child span{
+    background-color:red;
+    color:yellow;
+}
+span{
+    color:black;
+}

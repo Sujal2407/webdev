@@ -1,0 +1,11 @@
+1.to inintialise the project using
+>npm init
+    -will createa package.json,that will
+    include all the dependencies jinpar mera project depend kart hia
+2. install krlo express package ko kaise
+    -go to express documentation 
+    -go to npm and search express
+
+>npm i express
+it will install entire code of express and on weather and on whatever packages the
+express is dependent on...

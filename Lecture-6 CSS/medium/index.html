@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone frontend</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        .container{
+            width:1200px;
+            margin:auto;
+            height: 500px;
+            margin-top:90px;
+            font-family:sans-serif;
+        }
+        .yellow-container{
+            position:absolute;
+            top:0;
+            left:0;
+            height:550px;
+            border-bottom:1px solid black;
+            width:100%;
+            background-color:#FFC017;
+            z-index:-1;
+        }
+    </style>
+    <!--including navbar in css-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!--carousel ko bhi include karlo bhai-->
+    <link rel="stylesheet" href="css/carousel.css">
+    <!--trending article css-->
+    <link rel="stylesheet" href="css/trending-article.css">k
+</head>
+<body>
+    <!--yellow box container of carousel starts-->
+    <div class="yellow-container"></div>
+    <!--yellow box container of carousel ends-->
+    <!--navbar starts-->
+    <nav id="navbar" class="navbar">
+        <div class="nav-logo">
+            <div class="nav-image"></div>
+        </div>
+        <div class="nav-links">
+            <a class="nav-item" href="#">Our story</a>
+            <a class="nav-item" href="#">Membership</a>
+            <a class="nav-item" href="#">Write</a>
+            <a class="nav-item" href="#">Sign in</a>
+            <button class="get started">
+                <span>Get Started</span>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+            </button>
+        </div>
+    </nav>
+    
+</body>
+</html>

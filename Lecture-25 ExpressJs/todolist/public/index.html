@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>To Do list</h1>
+    <div class="container">
+        <form aciton="/addtask" method="GET">
+            <input class="inp" type="text" name="task" placeholder="Enter the task here.........">
+            <button class="btn" type="submit">add task</button>
+        </form>
+        <ul class="tasklist">
+            <li class="item">
+                <div class="content">Cricket</div>
+                <div class="btnGroup">
+                    <button class="btn-1 upBtn">↑</button>
+                    <button class="btn-1 downBtn">↓</button>
+                    <button class="btn-1 deleteBtn">❌</button>
+                </div>
+            </li> 
+        </ul>
+    </div>
+    <scirpt src="./script.js"></scirpt>
+</body>
+</html>

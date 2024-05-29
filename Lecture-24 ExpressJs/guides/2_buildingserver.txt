@@ -1,0 +1,27 @@
+1. learning to create a server, we can see th documentation
+2. to run the server,we type
+    >node app.js
+    inside the terminal,and this file will not end on execution
+3.app.get(path,callback);
+    yaha par jo path hoga uske match hone par callback function chlega
+    callback=(req,res)=>{
+        console.log(req);toh req client ko bhejta hai uske saath kuch
+        //important information bhi aati hai
+    }
+
+4. on charging even a single character in out file app.js we will have have to resatart the server
+-close the server:ctrl+c;
+-start it again:node app.js
+5.to send response back,we have to write
+    rs.send("hello world");
+    jisne req kari usse yeh response de dega "hello world"
+6. app.listen(PORT); this also accepts callback function
+app.listen(3000,callback);
+-app.listen(3000,()=>{
+    console.log("http://localhost:PORT:);
+});
+
+7. baar baar server ko band krke naa chlna padey iske liye ek package hai that is
+    -nodemon
+        ab kya bimari hai? 'npmjs.com se dekho'
+8. <script src=

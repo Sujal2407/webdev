@@ -1,0 +1,15 @@
+{
+  "name": "sujal",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "baad me",
+  "scripts": {
+    "test": "kuch bhi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "baad me"
+  },
+  "author": "",
+  "license": "ISC"
+}
